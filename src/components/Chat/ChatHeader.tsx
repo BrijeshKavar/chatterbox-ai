@@ -6,7 +6,7 @@ import Profile from "@/assets/logo.png";
 const ChatHeader = () => {
     const navigate = useNavigate()
     return (
-        <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 relative">
+        <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 sticky top-0 z-10">
             <Button
                 variant="ghost"
                 size="icon"

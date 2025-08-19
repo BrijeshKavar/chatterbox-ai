@@ -266,7 +266,7 @@ This creates a clean, professional foundation for your landing page with proper 
             </div>
 
             {/* Input */}
-            <div className="p-4 border-t border-border bg-card">
+            <div className="p-4 border-t border-border bg-card bg-white sticky bottom-0 z-10">
                 <div className="flex items-end gap-2">
                     <Button
                         variant="ghost"
@@ -295,14 +295,14 @@ This creates a clean, professional foundation for your landing page with proper 
                             rows={1}
                         />
                     </div>
-                    <Button
+                    {/* <Button
                         variant="ghost"
                         size="icon"
                         onClick={toggleRecording}
                         className={`w-10 h-10 rounded-full ${isRecording ? "bg-red-500 text-white" : "bg-gray-100 hover:bg-gray-200"}`}
                     >
                         <Mic className="w-4 h-4" />
-                    </Button>
+                    </Button> */}
                     <Button
                         variant="chat"
                         size="icon"
